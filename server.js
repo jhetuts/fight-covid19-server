@@ -3,9 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const helmet = require("helmet");
 const passport = require("passport");
-
 require("dotenv").config();
-
 // middleware
 const { notFound, errorHandler } = require("./src/middlewares");
 
